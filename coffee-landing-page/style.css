@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root {
+    --main-color: #deab5f;
+    --primary-color: #312e2e;
+}
+
+button {
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #100e0f;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li > a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+
+li > a:hover {
+    border-bottom: 2px solid var(--main-color);
+}
+
+.header {
+    background-image: url("https://images.pexels.com/photos/129207/pexels-photo-129207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.main-heading {
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+}
+
+.primary-heading {
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+}
+
+.main-button {
+    position: absolute;
+    bottom: 2rem;
+}
+
+#our-story {
+    height: auto;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1.title{
+    color: white;
+}
+
+.img {
+    width: 400px; 
+    height: 400px; 
+    background-image: url("https://images.pexels.com/photos/885021/pexels-photo-885021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: bottom; 
+    background-size: cover; 
+}
+
+.title-style {
+    display: flex; 
+}
+
+.title {
+    font-family:'Montserrat', sans-serif; 
+    font-size: 4rem; 
+}
+
+.line {
+   width: 100px; 
+   height: 2px; 
+   background-color:#fff; 
+}
+
+.section-content p {
+   max-width: 500px; 
+   color:white; 
+   line-height: 20px; 
+   margin-top :64px; 
+}
+
+.coffee-container {
+   display:flex; 
+   flex-wrap : wrap; 
+   justify-content : space-around; 
+   align-items : center; 
+   margin-top :10rem; 
+}
+
+.content-section {
+   max-width :500px; 
+   margin-top :20px; 
+   color:#fff; 
+}
+
+.img2 {
+   width :400px; 
+   height :400px; 
+   background-image:url("https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+   background-position:center; 
+   background-size :cover; 
+}
+
+.title-two {
+   font-size :3rem; 
+   color:white; 
+}
+
+.product {
+   margin-top :5rem; 
+}
+
+.title-three {
+   font-size :4rem; 
+   margin-top :10rem; 
+   margin-bottom :10rem; 
+}
+
+.cards {
+   display:flex; 
+   flex-wrap : wrap;  
+   justify-content : space-around;  
+}
+
+.card {
+    border: 2px solid var(--main-color);
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: -40px;
+}
+
+.img-one, .img-two, .img-three {
+    background-position: center;
+    background-size: cover;
+}
+.img-one {  
+     background-image:url("https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");  
+}
+.img-two {  
+     background-image:url("https://images.pexels.com/photos/3879495/pexels-photo-3879495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");  
+}
+.img-three {  
+     background-image:url("https://images.pexels.com/photos/4226806/pexels-photo-4226806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");  
+}
+.card-title {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.items {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card.items p {
+    color: #fff;
+    margin-top: 5px;
+}
+footer {   
+     height :50vh ;   
+     display:flex ;   
+     flex-wrap :wrap ;   
+     align-items:center ;   
+     justify-content:center ;   
+     color:#fff ;   
+}
+.container {   
+     margin :20px ;   
+     max-width :300px ;   
+     text-align:center ;   
+}
+footer .heading-info {    
+     margin-bottom :20px ;    
+}
+footer p {    
+     line-height :25px ;    
+}
+span {    
+     color :var(--main-color);    
+}
+hr {    
+     margin-bottom :20px ;    
+     border-color :var(--main-color);    
+     width :500px ;    
+     margin:auto ;    
+}
+@media only screen and (max-width:768px) {
+      .main-heading,.primary-heading{
+          font-size: 2.5rem;}
+      #our-story{
+          text-align:center;}
+      .content-section{
+          text-align:center;}
+      .coffee-container.img-container{
+          margin-top :5rem ;
+          width :50%;}
+      .title-two{
+          margin:auto;}
+}
